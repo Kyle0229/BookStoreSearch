@@ -1,0 +1,10 @@
+
+spring:
+  application:
+    name: search
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/
+server:
+  port: 9003
