@@ -8,4 +8,6 @@ import java.util.List;
 @Mapper
 public interface BooksMapper {
     List<Book> selectAll(Integer cid);
+    List<Book> selectAllb(Integer bid);
+    List<Book> selectCud(String cudtime);
 }

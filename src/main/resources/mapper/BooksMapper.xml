@@ -7,4 +7,8 @@
     <select id="selectAll" resultType="com.kyle.domain.Book" parameterType="Integer">
         select * from book where cid = #{cid}
     </select>
+    <select id="selectAllb" resultType="com.kyle.domain.Book" parameterType="Integer">
+        select * from book where bid = #{bid}
+    </select>
+
 </mapper>
